@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+:root{
+  --naranja: #ff8400;
+  --azul: #162884;
+  --gris:#ccc;
+  --blanco: #fff;
+  --azul_bajo: #9eaee5;
+  --f_principal: 'Roboto', sans-serif;
+}
+body{
+  background: var(--gris);
+
+}
+.contenido{
+  margin: 20px auto;
+  width: 350px;
+  height: auto;
+  background: var(--azul);
+  box-shadow: 1px 4px 5px #585858;
+  
+
+}
+.contenido .titulo{
+  margin-bottom: 15px;
+  width: 350px;
+  background: var(--naranja);
+  line-height: 2;
+  text-align: center;
+  font-family: var(--f_principal);
+  font-size: 19px;
+  text-transform: uppercase;
+  text-shadow: 1px 4px 5px #585858;
+  color: var(--blanco);
+
+}
+form{
+  width: 80%;
+  margin: 0px auto;
+  
+}
+
+
+form input[type="text"]{
+  
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: var(--f_principal);
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+form input[type="button"]{
+ display: block;
+  width: 50%;
+  margin:0 auto;
+  margin-bottom: 20px;
+  padding: 6px;
+  text-align: center;
+  background-color: var(--azul_bajo);
+  font-family: var(--f_principal);
+  color: var(--blanco);
+  text-shadow: 1px 4px 5px #585858;;
+  font-size: 25px;
+  border-radius: 8px;
+}
+form input[type="button"]:hover{
+  background-color: #385dae;
+}
